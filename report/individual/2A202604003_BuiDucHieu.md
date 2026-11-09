@@ -2,11 +2,11 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm:
-- Link repo nhóm:
+- Họ tên: Bùi Đức Hiếu
+- MSSV: 2A202604003 
+- Email trường (không bắt buộc, repo có thể để public): 26ai.hieubd2@vinuni.edu.vn
+- Tên nhóm: Nhóm 2
+- Link repo nhóm: https://github.com/HieuData/K5-L3B-Day02-Nhom2-DiscoveryProblemFraming/tree/main
 
 ---
 
