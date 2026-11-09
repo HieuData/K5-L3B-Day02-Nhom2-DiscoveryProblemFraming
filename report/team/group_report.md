@@ -78,39 +78,27 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+| 1 | Nhân viên mới thường xuyên gặp khó khăn trong việc tìm kiếm tài liệu và quy trình nội bộ khi bắt đầu công việc. | Value | 5 | 1 | Có |
+| 2 | Nhân viên cũ đang mất nhiều thời gian trả lời những câu hỏi lặp lại từ nhân viên mới. | Viability | 5 | 3 | Có |
+| 3 | Các tài liệu và quy trình nội bộ hiện đang phân tán ở nhiều nơi, khó tìm kiếm hoặc chưa được tổ chức thống nhất. | Feasibility | 4  | 2 | Có |
+| 4 | Nếu có một nơi tập trung tài liệu, quy trình và hướng dẫn, nhân viên mới sẽ chủ động tìm kiếm trước khi hỏi người cũ. | Desirability | 5 | 1 | Có |
+| 5 | Team có thể duy trì, cập nhật tài liệu và quy trình thường xuyên để đảm bảo thông tin luôn chính xác, hữu ích. |  Feasibility | 3 | 2 | Không |
 
-*Điền 4–6 giả định; xóa dòng thừa.*
-
-Giả định nhóm kiểm chứng trong buổi này:
+Giả định nhóm kiểm chứng trong buổi này: 1, 2 ,3 ,4
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
-
-Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
-
-| Trường | Nội dung |
-|---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+Cách đã dùng: Phỏng vấn / Survey
 
 Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| | | | |
+| Phỏng vấn | 3 | 3/3 người nói họ sẽ tự chủ động tìm thông tin nếu có tài liệu đầy đủ | 1/3 người nói họ không gặp khó khăn gì trong quá trình onboarding |
+| Phỏng vấn | 2 | 1/2 người nói trả lời intern làm mất nhiều thời gian của họ | 1/2 người nói tài liệu, quy trình onboarding của họ đã chuẩn |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
+Sửa từ "Chuẩn hóa quy trình onboarding nhân viên" sang thành "Xây dựng kho tài liệu onboarding tập trung.", có thể mở rộng thêm sang "Xây dựng hệ thống AI RAG hỗ trợ onboarding" sau khi hoàn thành xây dựng kho tài liệu.
 
 ### 3.3. Research giải pháp đã có
 
