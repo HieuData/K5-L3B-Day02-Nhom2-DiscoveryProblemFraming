@@ -154,87 +154,111 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
+| **Actor** | Nhân viên cũ / mentor trong team, là người thường xuyên bị nhân viên mới hỏi trong 2 tuần đầu onboarding |
+| **Quy trình** | Nhân viên mới cần làm một việc (xin quyền truy cập, setup môi trường, nộp chứng từ…) → tự tìm trên Drive / wiki / kênh chat → không tìm ra hoặc không chắc tài liệu còn đúng → nhắn hỏi người cũ → người cũ dừng việc để tìm link hoặc giải thích lại → nhân viên mới làm tiếp |
+| **Bottleneck** | Bước tự tìm: tài liệu nằm rải rác nhiều nơi, nhân viên mới không biết từ khóa nội bộ hay bản nào mới nhất, nên chuyển sang hỏi người |
+| **Impact** | Người cũ bị ngắt việc 5 lần/tuần, mất 60 phút/tuần cho các câu đã từng trả lời. Nhân viên mới chờ trung bình 20 phút mỗi câu và có lúc bị chặn việc |
+| **Success Metric** (baseline → target, cách đo) | Số câu hỏi lặp lại người cũ nhận mỗi tuần, tính trên mỗi nhân viên mới: ⟨baseline⟩ → giảm ≥ 50%. Đo bằng cách đếm tin nhắn hỏi trong chat/DM của người cũ, 2 tuần trước pilot và 4 tuần pilot. Một câu được tính là "lặp lại" nếu câu trả lời đã có trong tài liệu hoặc đã từng được trả lời |
+| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | AI không trả lời ngoài tài liệu nội bộ đã duyệt, không trả lời thiếu link nguồn, không tự cấp quyền hay duyệt yêu cầu. Chuyển cho người phụ trách khi: không tìm thấy nguồn, các nguồn mâu thuẫn, hoặc câu hỏi về quyền truy cập, bảo mật, HR, lương |
+
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
+Tại sao không sử dụng các ứng dụng tổng hợp nội dung như noteLM?
 
 -
+Phản biện: Chi phí mỗi lần truy xuất lớn hơn, tính bảo mật thấp hơn.
 
 ---
+
 
 ## 6. Mức can thiệp AI (CP6)
 
 ### 6.1. Ma trận độ mơ hồ × độ phức tạp
 
-Bài của nhóm nằm ở ô:
+Bài của nhóm nằm ở ô: Độ phức tạp thấp × độ mơ hồ cao
 
 Vì sao:
+- Độ mơ hồ cao ở đầu vào: nhân viên mới hỏi bằng ngôn ngữ tự nhiên, mỗi người hỏi một kiểu và không biết từ khóa nội bộ. Đầu ra thì có đúng/sai rõ: câu trả lời phải khớp với tài liệu.
+- Độ phức tạp thấp: chỉ có 1 bước chính (tìm đúng tài liệu rồi tóm tắt kèm link), 1 nguồn là kho tài liệu nội bộ, không có bước nào phụ thuộc bước trước.
 
 ### 6.2. So sánh 4 mức
 
 | Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
 |---|---|---|---|---|
-| **No AI** (sửa quy trình) | | | | |
-| **Rule** | | | | |
-| **Workflow** | | | | |
-| **Agent** | | | | |
+| **No AI** (sửa quy trình) | Gom tài liệu về 1 trang onboarding, có mục lục và FAQ top câu hỏi. Có checklist tuần đầu. Người cũ trả lời bằng link, gặp câu mới thì bổ sung vào FAQ | Câu hỏi tập trung vào một nhóm nhỏ, nhân viên mới tìm được bằng mục lục | FAQ lỗi thời nếu không ai giữ. Nhân viên mới vẫn không tìm ra vì không biết từ khóa | **Có, làm nền.** Workflow cũng cần kho tài liệu sạch |
+| **Rule** | Bot trả lời theo từ khóa trong kênh onboarding: câu hỏi chứa từ khóa thì gửi link FAQ tương ứng | Câu hỏi dùng từ khóa ổn định, ít cách diễn đạt | Khớp sai hoặc không khớp khi nhân viên mới dùng từ khác | Không, vì bottleneck chính là không biết từ khóa |
+| **Workflow** | Câu hỏi → tìm trong kho tài liệu đã duyệt → AI trả lời ngắn kèm link nguồn → Rule chặn chủ đề nhạy cảm và câu không có nguồn, chuyển cho người phụ trách → nhân viên mới bấm "đã giải quyết / chưa" → câu "chưa" được đưa vào FAQ | Các bước cố định, AI chỉ làm phần hiểu câu hỏi và tóm tắt | Trả lời sai hoặc trích tài liệu cũ, nhân viên mới làm sai | **Chọn**, có điều kiện (xem dưới) |
+| **Agent** | AI tự tìm trên nhiều hệ thống, tự tạo ticket, tự xin hoặc cấp quyền thay nhân viên mới | Khi bước tiếp theo không đoán trước được | Quyền truy cập rộng, khó kiểm soát, sai thì hậu quả thật (cấp quyền sai) | Không. Bài toán không cần AI tự quyết bước tiếp theo |
 
-**Mức chọn:**
 
-**Vì sao không chọn mức đơn giản hơn:**
+**Mức chọn:** Workflow, đặt trên nền No AI (gom và dọn tài liệu trước). Nếu bảng research 3.3 cho thấy công cụ nhóm đang dùng đã có sẵn tính năng hỏi đáp trên tài liệu, thì dùng công cụ đó thay vì tự xây.
+
+
+**Vì sao không chọn mức đơn giản hơn:** No AI và Rule giải được phần tài liệu rải rác, nhưng không giải được phần nhân viên mới không biết từ khóa nội bộ. Workflow chỉ cần thiết khi CP4 cho thấy câu trả lời **đã có** trong tài liệu mà nhân viên mới vẫn không tìm ra: ⟨X / Y câu hỏi trong log hoặc phỏng vấn⟩. Nếu đa số câu hỏi chưa có trong tài liệu, thì vấn đề là thiếu tài liệu và nhóm dừng ở No AI.
+
 
 ### 6.3. AI Canvas rút gọn
 
+
 | Thành phần | Nội dung |
 |---|---|
-| **Prediction** — AI dự đoán / tạo ra gì? | |
-| **Judgment** — con người cân nhắc, quyết định gì? | |
-| **Action** — hành động cuối cùng là gì, ai làm? | |
-| **Outcome** — đo kết quả bằng gì? | |
-| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | |
-| **Feedback** — lấy phản hồi ở đâu để cải thiện? | |
+| **Prediction** — AI dự đoán / tạo ra gì? | Tài liệu nào trả lời câu hỏi, kèm câu trả lời ngắn và link nguồn. Hoặc "không tìm thấy" |
+| **Judgment** — con người cân nhắc, quyết định gì? | Nhân viên mới quyết định câu trả lời đã giải quyết được việc chưa. Người phụ trách tài liệu quyết định nội dung nào đúng, câu nào cần bổ sung hoặc sửa tài liệu |
+| **Action** — hành động cuối cùng là gì, ai làm? | Nhân viên mới làm theo tài liệu gốc. Nếu chưa giải quyết thì hỏi người phụ trách. Người phụ trách cập nhật tài liệu hoặc FAQ |
+| **Outcome** — đo kết quả bằng gì? | Số câu hỏi lặp lại người cũ nhận mỗi tuần; tỉ lệ câu trả lời đúng nguồn; tỉ lệ nhân viên mới bấm "đã giải quyết" |
+| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | Câu hỏi của nhân viên mới; kho tài liệu nội bộ đã duyệt (wiki, Drive, FAQ), mỗi tài liệu có người phụ trách và ngày cập nhật; danh sách chủ đề nhạy cảm kèm người phụ trách. |
+| **Feedback** — lấy phản hồi ở đâu để cải thiện? | Nút "đã giải quyết / chưa"; các câu bị chuyển cho người; người cũ báo câu AI trả lời sai |
+
 
 ### 6.4. Hai câu hỏi của Google PAIR
 
-- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng:
-- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào:
+
+- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng: **Augment.** Giao cho AI phần *tìm và tóm tắt*, còn nhân viên mới vẫn tự làm theo tài liệu gốc. Việc cấp quyền và các câu hỏi nhạy cảm vẫn do người làm. *Giả thuyết, cần CP4 xác nhận:* ⟨câu nói hoặc hành vi từ phỏng vấn, ví dụ nhân viên mới đã từng ngại hỏi nên tự đoán, hoặc người cũ đã từng gửi lại cùng một link⟩.
+- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào: **Báo nhầm tệ hơn**, tức AI trả lời tự tin nhưng sai, ví dụ quy trình đã cũ hoặc thiếu bước. Nhân viên mới chưa đủ kinh nghiệm để nhận ra mình đang làm sai. Bỏ sót (AI nói "không tìm thấy") chỉ đưa quy trình về như hiện tại là hỏi người cũ. Vì vậy thiết kế chọn: không chắc thì chuyển cho người, bắt buộc kèm link nguồn, không trích tài liệu quá hạn.
+
 
 ---
 
 ## 7. Problem Statement v1 + tiêu chí đánh giá (CP6)
 
+
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** | |
-| **AI intervention point** | |
-| **Mức chọn** | No AI / Rule / Workflow / Agent |
-| **Rủi ro & người kiểm tra** | |
+| **Actor** | Nhân viên cũ / mentor trong team, là người thường xuyên bị nhân viên mới hỏi trong 2 tuần đầu onboarding, ở team **mà câu trả lời đã có trong tài liệu** |
+| **Quy trình** | Nhân viên mới cần làm một việc → tự tìm trên Drive / wiki / kênh chat → không tìm ra hoặc không chắc tài liệu còn đúng → nhắn hỏi người cũ → người cũ dừng việc để tìm link hoặc giải thích lại → nhân viên mới làm tiếp |
+| **Bottleneck** | Bước tự tìm: tài liệu nằm rải rác, nhân viên mới không biết từ khóa nội bộ hay bản nào mới nhất, nên chuyển sang hỏi người |
+| **Impact** | Người cũ bị ngắt việc 5 lần/tuần, mất 60 phút/tuần. Nhân viên mới chờ trung bình 20 phút mỗi câu |
+| **Success Metric** (baseline → target, cách đo) | (1) Số câu hỏi lặp lại người cũ nhận mỗi tuần, tính trên mỗi nhân viên mới: ⟨baseline⟩ → giảm ≥ 50%. Đếm trong chat/DM, 2 tuần trước pilot và 4 tuần pilot. (2) **Tỉ lệ câu trả lời đúng nguồn ≥ 90%.** Người phụ trách kiểm ngẫu nhiên 20 câu mỗi tuần theo tiêu chí bên dưới. (3) **Không có sự cố** nhân viên mới làm sai do câu trả lời sai |
+| **Boundary** | AI không trả lời ngoài tài liệu nội bộ đã duyệt, không trả lời thiếu link nguồn, **không trích tài liệu quá hạn hoặc chưa có người phụ trách**, không tự cấp quyền hay duyệt yêu cầu. Chuyển cho người phụ trách khi: không tìm thấy nguồn, các nguồn mâu thuẫn, hoặc câu hỏi về quyền truy cập, bảo mật, HR, lương |
+| **AI intervention point** | Giữa bước "nhân viên mới tự tìm" và bước "hỏi người cũ": AI tìm tài liệu và tóm tắt kèm link trước khi câu hỏi đến tay người |
+| **Mức chọn** | Workflow, trên nền No AI (gom tài liệu về 1 nơi, gắn người phụ trách và ngày cập nhật) |
+| **Rủi ro & người kiểm tra** | Trả lời sai hoặc dùng bản cũ → người phụ trách tài liệu kiểm mẫu hằng tuần. Nhân viên mới làm theo sai → câu trả lời luôn kèm link để đối chiếu với bản gốc. Tài liệu lỗi thời → người phụ trách nhận nhắc rà lại sau ⟨X⟩ tháng |
+
 
 **Thay đổi so với v0 và lý do:**
 
+
 | Trường | v0 | v1 | Vì sao đổi |
 |---|---|---|---|
-| | | | |
+| Success Metric | Chỉ đếm số câu hỏi lặp lại | Thêm tỉ lệ đúng nguồn và số sự cố | Nếu chỉ đếm số câu hỏi, AI trả lời sai vẫn làm metric "đẹp" vì nhân viên mới không hỏi lại.|
+| Boundary | Không nói tới độ mới của tài liệu | Không trích tài liệu quá hạn hoặc chưa có người phụ trách | Bottleneck có nguyên nhân "không biết bản nào mới nhất". AI trích bản cũ sẽ lặp lại đúng lỗi đó |
+| Actor | Mọi team có nhân viên mới | Chỉ team mà câu trả lời đã có trong tài liệu | Team thiếu tài liệu thì cần viết tài liệu (No AI), AI không giúp được |
+
 
 **Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
 
+
 | # | Tiêu chí | Đạt khi | Không đạt khi |
 |---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+| 1 | Đúng nguồn | Có link tới tài liệu đã duyệt và nội dung khớp tài liệu đó | Không có link, hoặc link không chứa nội dung được trả lời |
+| 2 | Không bịa | Mọi bước và thông tin đều có trong nguồn | Có bước, tên người, deadline hay con số không có trong nguồn |
+| 3 | Biết chuyển cho người | Câu ngoài tài liệu hoặc thuộc chủ đề nhạy cảm (quyền truy cập, HR, lương, bảo mật) được chuyển cho người phụ trách | AI vẫn trả lời, hoặc đoán câu trả lời |
+| 4 | Tài liệu hiện hành | Trích bản mới nhất, còn trong hạn rà soát | Trích bản cũ hoặc tài liệu đã hết hạn |
+| 5 | Làm theo được ngay | ≤ 5 câu hoặc các bước rõ ràng, nhân viên mới làm tiếp mà không phải hỏi thêm | Dài, lan man, hoặc nhân viên mới vẫn phải hỏi người cũ cùng câu đó |
+
 
 ---
+
 
 ## 8. Quyết định (CP6)
 
