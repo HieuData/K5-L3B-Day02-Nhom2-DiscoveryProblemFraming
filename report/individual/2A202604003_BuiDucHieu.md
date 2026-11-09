@@ -27,7 +27,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
--
+- Tôi dùng AI gợi ý ý #2, #4 và không bỏ ý nào
 
 ---
 
