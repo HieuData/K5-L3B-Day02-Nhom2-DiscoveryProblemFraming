@@ -85,3 +85,40 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 - Kỹ năng khám phá và phân tích vấn đề, kỹ năng phỏng vấn, kỹ năng phản biện, biết thêm về quy trình onboarding, tài liệu công ty
+
+
+### Trần Trung Kiên-2A202604014
+
+**Phần việc phụ trách:**
+
+- CP4 — Research giải pháp đã có.
+- CP5 — Quy trình trước/sau và bảng before/after.
+- CP6 — Ma trận Mơ hồ x Phức tạp.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Tổng hợp, so sánh Notion Enterprise Search, Confluence/Rovo Search và Guru; nêu chức năng, bước quy trình được hỗ trợ, rủi ro và bài học cho nhóm.
+- Mô tả quy trình onboarding hiện tại và quy trình đề xuất bằng sơ đồ Mermaid, kèm actor, input/output, thời gian và tần suất từng bước.
+- Lập bảng before/after theo từng nhánh xử lý; phân biệt thời gian làm việc, thời gian chờ và công sức duy trì tài liệu, ghi rõ số liệu minh họa chưa phải kết quả thực tế.
+- Làm rõ bước Rule, Search, AI và con người; giới hạn quyền của AI và cách chuyển cho người hướng dẫn khi thiếu nguồn hoặc có lỗi.
+- Bổ sung cách thu baseline, chỉ số đánh giá và nguồn tham khảo vào báo cáo chung.
+- Lập Ma trận Mơ hồ x Phức tạp
+
+**Bằng chứng** (phần nào trong báo cáo, file nào, commit nào):
+
+- [Báo cáo nhóm — mục 3.3](report/team/group_report.md#33-research-giải-pháp-đã-có): bảng research, link nguồn và kết luận.
+- [Báo cáo nhóm — phần 4](report/team/group_report.md#4-quy-trình-trướcsau-cp5): sơ đồ Mermaid, bảng quy trình trước/sau, bảng so sánh và cách đo baseline.
+- [Báo cáo nhóm — phần 10](report/team/group_report.md#10-tài-liệu-tham-khảo): các nguồn tham khảo của phần research.
+- commit:
+ + group_report.md update
+ + Group Report Update
+ + Group Report Update
+ + Group Report Update
+ + Upload Individual Report - Tran Trung Kien
+ + Update Individual Report - Tran Trung Kien
+
+**Điều mình học được từ phần nhóm:**
+
+- Cần kiểm tra giải pháp đã có và xác định đúng nguyên nhân trước khi đề xuất xây AI.
+- So sánh trước/sau phải xét cùng tác vụ, các nhánh ngoại lệ và chi phí duy trì; không dùng số minh họa làm bằng chứng hiệu quả.
+- AI hỗ trợ tìm và tóm tắt tài liệu vẫn cần nguồn được duyệt, kiểm soát quyền và con người kiểm tra kết quả.
