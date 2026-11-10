@@ -186,7 +186,7 @@ Ghi lý do mỗi lần quay lại: thứ tự giao, khách vắng/đổi giờ,
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
 | Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Tương quan giữa số câu hỏi được đặt với mức độ hiểu việc của nhân viên mới có thực sự là quan hệ nhân quả không? Nếu số câu hỏi giảm, làm sao biết người mới hiểu hơn? | |
 | Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
 | Gom cluster / cây OST | | |
 | Chọn candidate problem | | |
