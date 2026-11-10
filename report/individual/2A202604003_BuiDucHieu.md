@@ -22,8 +22,6 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | 4 |Tốn thời gian |Khi nhận một task phát triển có mô tả chưa rõ ràng, tôi muốn xác định các yêu cầu, điều kiện hoàn thành và những điểm chưa được giải thích, để tránh hiểu sai yêu cầu và phải sửa lại sau khi hoàn thành |Manager, Developer |Làm rõ task tốn 10-15p, trao đổi lại với manager 1-2 lần, 1 task mỗi sprint phải chỉnh sửa do hiểu sai yêu cầu |
 | 5 |Cần đọc, tổng hợp nhiều thông tin |Khi tìm hiểu một công nghệ hoặc thư viện mới để phục vụ dự án, tôi muốn tổng hợp được những thông tin quan trọng từ tài liệu và các nguồn hướng dẫn khác nhau, để hiểu cách sử dụng và lựa chọn được phương án phù hợp |Developer |Mất 30-60p để tìm hiểu một công nghệ mới, phải tham khảo 3–5 nguồn khác nhau, mất thêm 15-20p để đối chiếu thông tin giữa các nguồn |
 | 6 |Tốn thời gian |Khi cần mua một sản phẩm có nhiều lựa chọn trên thị trường, tôi muốn so sánh giá cả, đánh giá và đặc điểm của các sản phẩm, để lựa chọn được sản phẩm phù hợp với nhu cầu và ngân sách |Buyer |Mất 20–30p để so sánh, tham khảo 3–5 shop và 2 platform, cân nhắc 5 alternatives |
-| 7 | | | | |
-| 8 | | | | |
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
@@ -138,14 +136,14 @@ Hiện tại - 90p/tuần
 |---|---|---|
 | Pitch Problem Card |Tham gia debate với teammate |Chốt được shortlist card |
 | Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Việc tổng hợp báo cáo tiến độ mất khoảng 20 phút mỗi ngày có thực sự là bottleneck đáng ưu tiên giải quyết, hay phần lớn thời gian này vẫn cần thiết để Team Leader kiểm tra và xác nhận thông tin? Nếu rút ngắn thời gian tổng hợp, liệu có cải thiện đáng kể hiệu quả quản lý tiến độ của team không?| |
-| Nhận phản biện | Câu hỏi tôi nhận được: Việc không rõ người phụ trách có thường xuyên xảy ra không? Hay các thành viên vẫn tự hiểu và chủ động nhận việc?| Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
+| Nhận phản biện | Câu hỏi tôi nhận được: Việc không rõ người phụ trách có thường xuyên xảy ra không? Hay các thành viên vẫn tự hiểu và chủ động nhận việc?| Tôi đã sửa gì: Việc này thường xảy ra dù member có thể tự hiểu (conflict xảy ra sau khi đảm nhận phần việc "tự hiểu"). Vì vậy nếu xử lý được bottleneck thì sẽ giúp giảm đáng kể conflict|
+| Gom cluster / cây OST |Gom cluster từ các vấn đề và xây cây OST hỗ trợ ra quyết định|Gom được 4 cluster và xây cây OST hoàn chỉnh|
 | Chọn candidate problem |Tham gia đánh giá shortlist |Chốt được final card |
 | Kiểm chứng / research | | |
 | Quy trình nhóm | | |
 | Problem Statement | | |
 | Mức can thiệp AI | | |
-| Quyết định | | |
+| Quyết định |Ra quyết định, lên kế hoạch pilot, phân tích hạn chế và định hướng|Quyết định Go kèm kế hoạch pilot cụ thể |
 
 ---
 
@@ -158,7 +156,7 @@ Hiện tại - 90p/tuần
 | CP4 Research | | | | |
 | CP5 Quy trình | | | | |
 | CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP6 Mức can thiệp / quyết định |Hỗ trợ tôi trong việc lập kế hoạch pilot|Giúp tôi nhận thấy những hạn chế cùng như các bước quy trình tôi bó sót | |Tạo lập được 1 kế hoạch chi tiết hơn |
 
 ---
 
@@ -167,19 +165,48 @@ Hiện tại - 90p/tuần
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Tôi nhận ra rằng một vấn đề không nhất thiết phải có quy mô lớn hoặc ảnh hưởng đến nhiều người mới đáng được quan tâm. Có những vấn đề xuất phát từ những bất tiện nhỏ trong công việc hoặc học tập hằng ngày, nhưng nếu xảy ra thường xuyên và khiến người gặp phải mất nhiều thời gian thì vẫn có thể trở thành một cơ hội tối ưu đáng cân nhắc. Trước đây, khi đánh giá một vấn đề, tôi thường chú ý nhiều đến việc vấn đề đó có dễ nhận thấy hay không và liệu có thể nghĩ ra một giải pháp phù hợp hay không. Tuy nhiên, qua hoạt động này, tôi hiểu rằng cần tách biệt giữa mức độ thú vị của vấn đề và mức độ quan trọng thực sự của nó.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Ngay sau khi chốt được candidate, tôi nhận thấy nhóm có xu hướng nghĩ đến giải pháp công nghệ khá sớm, đặc biệt là RAG chatbot. Điều này khá dễ hiểu vì topic của khóa học là ứng dụng AI và các thành viên đều muốn tìm ra một hướng ứng dụng công nghệ cụ thể. Tuy nhiên, việc nghĩ đến giải pháp trước khi hiểu rõ vấn đề có thể khiến nhóm vô tình điều chỉnh cách mô tả vấn đề để phù hợp với giải pháp đã nghĩ ra, thay vì lựa chọn giải pháp dựa trên nhu cầu thực tế. Dần dà qua quá trình Research, Kiểm chứng, Phân tích trước sau và Mức can thiệp, nhóm bắt đầu nắm bắt được vấn đề chi tiết hơn, điều chỉnh lại Problem Statement cũng như giải pháp của mình.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Nhóm đã xem xét Problem Card của tôi về việc phân chia bài tập nhóm thành các nhiệm vụ nhỏ. Ban đầu, tôi cho rằng đây là một vấn đề tương đối phổ biến trong các nhóm học tập. Khi một bài tập có nhiều yêu cầu và thời hạn khác nhau, các thành viên có thể gặp khó khăn trong việc xác định cần làm gì trước, ai chịu trách nhiệm cho từng phần và tiến độ tổng thể đang ở đâu. Vì vậy, tôi đánh giá việc hỗ trợ phân chia nhiệm vụ có thể giúp nhóm phối hợp hiệu quả hơn.
+Tuy nhiên, một thành viên đã đặt câu hỏi về giả định ban đầu của tôi: "Liệu việc không rõ người phụ trách có thực sự xảy ra thường xuyên hay không, hay các thành viên thường đã hiểu nhiệm vụ và chủ động nhận phần việc của mình?" Câu hỏi này khiến tôi phải xem xét lại cách mình xác định vấn đề. Tôi nhận ra rằng việc bản thân từng gặp một tình huống bất tiện không đồng nghĩa với việc những người khác cũng gặp vấn đề tương tự hoặc vấn đề đó đủ nghiêm trọng để được ưu tiên.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Kết quả phỏng vấn giúp nhóm có thêm góc nhìn thực tế về vấn đề nhân viên mới gặp khó khăn khi tìm kiếm tài liệu và quy trình nội bộ. Trước khi thực hiện phỏng vấn, nhóm có giả định rằng nhân viên mới thường phải hỏi mentor/kead vì không thể tự tìm được thông tin cần thiết. Điều này có thể làm gián đoạn công việc của mentor/leader và khiến nhân viên mới phải chờ đợi để tiếp tục nhiệm vụ. Tuy nhiên, kết quả thu thập được không hoàn toàn xác nhận giả định ban đầu mà cho thấy trải nghiệm của người được phỏng vấn có sự khác biệt.
+Bên cạnh đó, tôi cũng nhận ra giới hạn của mẫu phỏng vấn. Nhóm chỉ phỏng vấn 5 người nên chưa đủ cơ sở để kết luận mức độ phổ biến của vấn đề trong nhiều doanh nghiệp. Ngoài ra, một số số liệu về số câu hỏi lặp lại, thời gian hỗ trợ và thời gian chờ hiện vẫn là ước tính chứ chưa được đo lường bằng dữ liệu thực tế.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Phần khó nhất khi xây dựng Problem Statement là xác định phạm vi vấn đề đủ cụ thể nhưng vẫn phản ánh đúng nhu cầu của người sử dụng. Ban đầu, vấn đề nhân viên mới gặp khó khăn trong quá trình onboarding có thể được mô tả rất rộng, bao gồm việc tìm hiểu văn hóa doanh nghiệp, học quy trình làm việc, xin quyền truy cập hệ thống, tìm tài liệu và làm quen với đồng nghiệp. Tuy nhiên, nếu giữ phạm vi quá rộng, nhóm sẽ khó xác định chính xác vấn đề cần giải quyết và dễ đưa ra một giải pháp có quá nhiều chức năng. Sau quá trình thảo luận, nhóm mới có thể tập trung vào tình huống nhân viên mới cần tìm một thông tin đã tồn tại trong tài liệu nội bộ được phê duyệt nhưng không thể nhanh chóng xác định vị trí hoặc nguồn thông tin chính xác.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Nếu được làm lại, tôi sẽ ưu tiên thu thập bằng chứng, số liệu thực trạng sớm hơn thay vì dành quá nhiều thời gian thảo luận dựa trên những giả định ban đầu. Trong project hiện tại, nhóm đã xác định được một số tác động có thể xảy ra như mentor bị gián đoạn công việc, nhân viên mới phải chờ đợi và câu hỏi lặp lại nhiều lần. Tuy nhiên, các số liệu về số lần hỏi, thời gian hỗ trợ và thời gian chờ chủ yếu vẫn là ước tính. Điều này khiến nhóm chưa thể khẳng định chính xác mức độ nghiêm trọng của vấn đề.
+Ngoài ra, tôi muốn phản biện sâu hơn về tính cần thiết của AI. Nhóm đã nghiên cứu một số công cụ tìm kiếm tri thức hiện có, nhưng vẫn cần so sánh rõ hơn giữa AI Search, FAQ, hệ thống chỉ mục tài liệu và các công cụ tìm kiếm truyền thống. Nếu một hệ thống FAQ được tổ chức tốt đã giải quyết phần lớn vấn đề thì việc bổ sung AI có thể làm tăng chi phí và độ phức tạp mà không tạo ra giá trị tương xứng.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Problem: Nhân viên mới gặp khó khăn khi tìm kiếm tài liệu và quy trình onboarding nội bộ. Khi không tìm được thông tin phù hợp hoặc không chắc tài liệu còn hiệu lực, họ phải hỏi mentor/lead, làm gián đoạn công việc của họ.
 
+Quy trình: Newbie tìm kiếm trên Drive/Wiki/Chat → Đọc tài liệu tìm được → Không chắc thông tin có chính xác hoặc còn hiệu lực → Hỏi mentor → Mentor tìm tài liệu và giải thích → Newbie tiếp tục công việc.
+
+Impact: Mentor bị gián đoạn công việc do phải trả lời câu hỏi lặp lại (ước tính 5 lần/tuần, khoảng 60 phút/tuần). Nhân viên mới phải chờ trung bình khoảng 20 phút cho mỗi câu hỏi.
+
+Metric:
+- Giảm min 50% số câu hỏi lặp lại từ nhân viên mới.
+- Tỷ lệ câu trả lời đúng nguồn min 90%, kiểm tra ngẫu nhiên 20 câu hỏi/tuần.
+- Không có sự cố nhân viên thực hiện sai công việc do AI cung cấp thông tin không chính xác.
+
+Boundary:
+- AI chỉ sử dụng tài liệu nội bộ đã được phê duyệt.
+- Câu trả lời phải kèm link nguồn.
+- Không tự trả lời khi không có nguồn đáng tin cậy hoặc khi các tài liệu conflict
+- Không truy cập hoặc làm lộ tài liệu user không có quyền xem.
+- Chuyển các câu hỏi liên quan đến bảo mật, quyền truy cập, HR hoặc thông tin nhạy cảm cho người phụ trách.
+
+Mức can thiệp AI: Workflow AI trên nền tảng No AI. Trước tiên cần chuẩn hóa kho tài liệu, phân công người quản lý và cập nhật trạng thái tài liệu (No AI). Sau đó sử dụng AI Search để tìm kiếm, tổng hợp thông tin và cung cấp nguồn trong quy trình onboarding (Workflow). Không sử dụng Agent vì phạm vi pilot chỉ cần hỗ trợ tìm kiếm và trả lời có kiểm soát, chưa cần AI tự chủ động thực hiện hành động.
+
+Decision: Go – triển khai pilot trong phạm vi một team, sử dụng 20 câu hỏi onboarding thực tế để so sánh FAQ/index, công cụ tìm kiếm hiện tại và Workflow AI. Đánh giá kết quả trước khi quyết định mở rộng.
 ---
 
 ## 7. Tài liệu tham khảo
