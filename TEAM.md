@@ -4,19 +4,18 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm: 
-- Candidate problem nhóm chọn (1 câu):
-- Quyết định cuối (Go / Not Yet / No-Go):
+- Tên nhóm: Nhóm 2
+- Candidate problem nhóm chọn (1 câu): Nhân viên mới tự tìm tài liệu và quy trình nội bộ
+- Quyết định cuối (Go / Not Yet / No-Go): Go
 
 ## Thành viên
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
+| 1 | Bùi Đức Hiếu | 2A202604003 | Điều phối teamwork, hội tụ nhóm, chốt quyết định, phân tích hạn chế và định hướng | HieuData |
 | 2 | Nguyễn Lương Nguyên | 2A202604005 | ghi chép, phụ trách kiểm chứng (phỏng vấn) | nglngnguyen-gh |
-| 3 | | | | |
-| 4 | Trần Trung Kiên | 2A202604014 | research, vẽ quy trình, bảng before/after, ma trận | ttkien0710 |
-| 5 | Hoàng Nhật Minh | 2A202603992 | Thuyết trình, phản biện chính, viết Problem statement v0 + Problem statement v1, Ma trận, AI canvas, eval...| NMinh-123|
+| 3 | Trần Trung Kiên | 2A202604014 | research, vẽ quy trình, bảng before/after, ma trận | ttkien0710 |
+| 4 | Hoàng Nhật Minh | 2A202603992 | Thuyết trình, phản biện chính, viết Problem statement v0 + Problem statement v1, Ma trận, AI canvas, eval...| NMinh-123|
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -32,29 +31,34 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 | CP5 — Quy trình trước/sau | Trần Trung Kiên | | Quy trình + bảng before/after |
 | CP5 — Problem Statement v0 | Hoàng Nhật Minh | Trần Trung Kiên | Problem Statement v0 |
 | CP6 — Mức can thiệp + Problem Statement v1 | Hoàng Nhật Minh | | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | | | 4 rủi ro + Go/Not Yet/No-Go |
+| CP6 — Quyết định |Bùi Đức Hiếu | | 4 rủi ro + Go/Not Yet/No-Go |
 
 ## Cá nhân
 
-Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
-
-### HoVaTen-MSSV
+### Bùi Đức Hiếu-2A202604003 
 
 **Phần việc phụ trách:**
 
--
+- Điều phối teamwork, hội tụ nhóm, chốt quyết định, phân tích hạn chế và định hướng
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
-- 
+- Thực hiện phần CP3: Gom cluster, vẽ OST, chấm điểm và chốt final candidate
+- Thực hiện phần CP6: Phân tích rủi ro, ra quyết định triển khai và lên kế hoạch sơ bộ cho pilot, tổng hợp & phân tích các hạn chế cũng như định hướng tương lai
+- Đặt câu hỏi phản biện
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
-- 
+- Mục 2.2, 2.3, 2.4 (Phần 2), Phần 8 và 9 file group_report.md
+- Commit:
+ - Handle 2.2, 2.3 and 2.4
+ - Complete Section 8, 9
 
 **Điều mình học được từ phần nhóm:**
 
-- 
+-  Nhìn chung, tôi học được cách phối hợp, giao tiếp, phân chia công việc hợp lý, lắng nghe ý kiến và cùng các thành viên giải quyết vấn đề để đạt mục tiêu chung.
+-  Từ phần việc của riêng mình, tôi học được cách tổng hợp, phân tích và chọn lọc các vấn đề khác nhau theo metric, so sánh dựa vào ground truth. Ngoài ra tôi cũng
+học được cách đưa ra quyết định, phân tích hạn chế và lập kế hoạch cho solution của team.
 
 ### Nguyễn Lương Nguyên-2A202604005
 
