@@ -25,7 +25,7 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
-| CP3 — Hội tụ nhóm | | Nguyễn Lương Nguyên| Cluster, cây OST, bảng chấm điểm |
+| CP3 — Hội tụ nhóm |Bùi Đức Hiếu | Nguyễn Lương Nguyên| Cluster, cây OST, bảng chấm điểm |
 | CP4 — Kiểm chứng | Nguyễn Lương Nguyên | | Assumption map, snapshot hoặc survey |
 | CP4 — Research | Trần Trung Kiên | | Bảng research có link |
 | CP5 — Quy trình trước/sau | Trần Trung Kiên | | Quy trình + bảng before/after |
@@ -51,8 +51,12 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 - Mục 2.2, 2.3, 2.4 (Phần 2), Phần 8 và 9 file group_report.md
 - Commit:
- - Handle 2.2, 2.3 and 2.4
- - Complete Section 8, 9
+ - Handle 2.2, 2.3 and 2.4 (group_report)
+ - Complete Section 8, 9 (group_report)
+ - 1st update (2A202604003_BuiDucHieu)
+ - add personal info (2A202604003_BuiDucHieu)
+ - Revise AI suggestion section in reports (2A202604003_BuiDucHieu)
+ - Update report (2A202604003_BuiDucHieu)
 
 **Điều mình học được từ phần nhóm:**
 
