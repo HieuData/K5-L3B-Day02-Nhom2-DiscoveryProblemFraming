@@ -98,7 +98,7 @@ Quy trình nháp hiện tại:
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | 	Khi đến cuối mỗi tháng, tôi muốn tổng hợp phản hồi và kết quả khảo sát người dùng từ nhiều ứng dụng, để xác định các vấn đề, nhu cầu cần thêm và hạng mục cần cải thiện cho từng ứng dụng.|
+| Job Story | Khi đến cuối mỗi tháng, tôi muốn tổng hợp phản hồi và kết quả khảo sát người dùng từ nhiều ứng dụng, để xác định các vấn đề, nhu cầu cần thêm và hạng mục cần cải thiện cho từng ứng dụng.|
 | Actor | Team Leader |
 | Thời điểm / bối cảnh | Cuối mỗi tháng, khi Team Leader cần tổng hợp khảo sát người dùng của 4 ứng dụng để phục vụ việc lập kế hoạch cải thiện sản phẩm. |
 | Quy trình hiện tại (3–7 bước) | 	
@@ -140,7 +140,13 @@ Quy trình nháp hiện tại:
 | Pitch Problem Card | Trình bày vấn đề và giải pháp | 1 trong 4 vấn đề cuối cùng để chọn làm slide |
 | Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Việc không rõ người phụ trách có thường xuyên xảy ra không? Hay các thành viên vẫn tự hiểu và chủ động nhận việc? | |
 | Nhận phản biện | Câu hỏi tôi nhận được: Việc tổng hợp báo cáo tiến độ mất khoảng 25 phút mỗi ngày có thực sự là bottleneck đáng ưu tiên giải quyết, hay phần lớn thời gian này vẫn cần thiết để Team Leader kiểm tra và xác nhận thông tin? Nếu rút ngắn thời gian tổng hợp, liệu có cải thiện đáng kể hiệu quả quản lý tiến độ của team không? | Tôi đã sửa gì: Phần lớn thời gian dành cho việc tổng hợp tay. Nếu có công cụ tổng hợp, Team Leader chỉ cần kiểm tra, thì sẽ rút ngắn đáng kể thời gian |
+| Gom cluster / cây OST | | |
+| Chọn candidate problem | | |
 | Kiểm chứng / research | Thực hiện làm assumption map, thực hiện phỏng vấn khảo sát, sửa lại problem | Problem đã được sửa lại theo kết quả khảo sát |
+| Quy trình nhóm | | |
+| Problem Statement | | |
+| Mức can thiệp AI | | |
+| Quyết định | | |
 
 ---
 

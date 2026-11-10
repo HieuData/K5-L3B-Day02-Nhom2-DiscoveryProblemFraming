@@ -18,18 +18,18 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+| 1 |  Nguyễn Lương Nguyên | Khi kết thúc mỗi ngày làm việc, tôi muốn tổng hợp tiến độ công việc của từng thành viên trong team dev, để nắm bắt tình hình thực hiện công việc và kịp thời phát hiện các vấn đề ảnh hưởng đến tiến độ chung. | Team Leader, Team Members | Tổng hợp thông tin báo cáo (Bước 2 -> 4) mất 25 phút | Việc tổng hợp báo cáo tiến độ mất khoảng 20 phút mỗi ngày có thực sự là bottleneck đáng ưu tiên giải quyết, hay phần lớn thời gian này vẫn cần thiết để Team Leader kiểm tra và xác nhận thông tin? Nếu rút ngắn thời gian tổng hợp, liệu có cải thiện đáng kể hiệu quả quản lý tiến độ của team không? (Bùi Đức Hiếu) |
+| 2 | Nguyễn Lương Nguyên | Khi hoàn thành code một chức năng, tôi muốn cập nhật đầy đủ thông tin chức năng đó vào tài liệu đặc tả, để đảm bảo tài liệu phản ánh đúng trạng thái hiện tại của hệ thống và hỗ trợ các thành viên team dev trong quá trình phát triển, bảo trì. | Team Members, Team Leader | Bước 3, cập nhật nội dung: 15 phút | |
+| 3 | Nguyễn Lương Nguyên | Khi đến cuối mỗi tháng, tôi muốn tổng hợp phản hồi và kết quả khảo sát người dùng từ nhiều ứng dụng, để xác định các vấn đề, nhu cầu cần thêm và hạng mục cần cải thiện cho từng ứng dụng. | Team Leader | Phân tích kết quả (Bước 1->5 ) | |
+| 4 | Bùi Đức Hiếu | Khi kết thúc một cuộc họp nhóm, tôi muốn xác định các quyết định, công việc được giao và deadline, để mọi người có thể tiếp tục công việc mà không phải hỏi lại | Team leader, Thư ký/Project coordinator, Team members | Xác định đầy đủ task, member phụ trách và dl từ ND thảo luận | |
+| 5 | Bùi Đức Hiếu | Khi nhận một đề bài nhóm có nhiều yêu cầu, tôi muốn chia nhỏ yêu cầu thành các đầu việc có người phụ trách và deadline, để cả nhóm hiểu rõ trách nhiệm và không bỏ sót deliverable | Team leader, Team members | Convert yêu cầu tổng quát thành deliverable, task cụ thể, có scope và trách nhiệm rõ ràng | Việc không rõ người phụ trách có thường xuyên xảy ra không? Hay các thành viên vẫn tự hiểu và chủ động nhận việc? (Nguyễn Lương Nguyên) |
+| 6 | Bùi Đức Hiếu | Khi gặp lại một khái niệm hoặc dạng bài đã học, tôi muốn tìm được ghi chú và lời giải liên quan trước đó, để không phải đọc lại toàn bộ tài liệu hoặc giải quyết lại vấn đề từ đầu | Sinh viên có nhiều tài liệu, ghi chú và bài tập được lưu trữ ở nhiều nơi | Tìm kiếm và xác định tài liệu phù hợp trong số lượng lớn tài liệu được lưu trữ, đặc biệt khi không nhớ chính xác tên file hoặc vị trí lưu (có thể chiếm 5 - 10p) | |
+| 7 | Hoàng Nhật Minh | Khi nhân viên mới vào team, tôi muốn họ tự tìm được tài liệu và quy trình nội bộ, để người cũ không phải trả lời cùng một câu nhiều lần | Người cũ / mentor bị hỏi; nhân viên mới (người hỏi) | Bước 2–3: tự tìm mất 20 phút rồi vẫn phải hỏi, vì tài liệu rải rác và nhân viên mới không biết từ khóa nội bộ. Bước 5: người cũ mất 10-15 phút mỗi lần bị hỏi | |
+| 8 | Hoàng Nhật Minh | Khi nhận thông báo của trường từ nhiều nhóm chat, sổ liên lạc và email, phụ huynh muốn nắm được việc nào cần làm và hạn khi nào, để không lỡ hạn nộp tiền hay lịch họp | Phụ huynh có con tiểu học/THCS, ở nhiều nhóm chat (lớp, trường, ban đại diện) | Bước 3: tìm ra vài tin cần hành động giữa hàng chục đến hàng trăm tin khác. Mất 30-60 phút/ngày, hoặc bỏ qua luôn khi đã tắt thông báo | |
+| 9 | Hoàng Nhật Minh | Khi khách nhắn hỏi lặp lại về giá, size, phí ship, chủ shop online muốn trả lời nhanh và đúng, để không mất khách vì phản hồi chậm | Chủ shop hoặc nhân viên trực inbox của shop nhỏ (1–3 người) bán qua Facebook/Zalo | Bước 2: thời gian từ lúc khách nhắn đến lúc shop trả lời là 90 phút vào giờ cao điểm. Bước 4–5: gõ lại cùng một nội dung 20 lần/ngày | |
+| 10 | Trần Trung Kiên | Bệnh nhân được yêu cầu mua thuốc ngoài khi bệnh viện hết, nhưng không nắm rõ mình có thuộc diện được bệnh viện thanh toán tiền thuốc hay không, hoặc thuộc diện được thanh toán nhưng chưa được thanh toán | Bệnh nhân, nhân viên tài chính bệnh viện | tổng lượng request thanh toán, tổng giá trị request chưa được xử lý | |
+| 11 | Trần Trung Kiên | Khách hàng tìm mua/thuê nhà nhưng có nhiều sales/ đơn vị sales cùng môi giới một căn, dẫn đến trùng căn, mất thời gian liên hệ, hẹn xem, nhân lực sales phân bổ không tối ưu | Khách hàng, sales | số sales môi giới cùng một căn cho cùng 1 khách hàng | |
+| 12 | Trần Trung Kiên | Shipper di chuyển theo tuyến đường không tối ưu, gây lãng phí tài nguyên | shipper/ đơn vị vận chuyển | | |
 
 ### 2.2. Cluster
 
