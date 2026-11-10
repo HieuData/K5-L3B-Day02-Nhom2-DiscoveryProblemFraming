@@ -15,7 +15,7 @@
 | 1 | | | | |
 | 2 | Nguyễn Lương Nguyên | 2A202604005 | ghi chép, phụ trách kiểm chứng (phỏng vấn) | nglngnguyen-gh |
 | 3 | | | | |
-| 4 | | | | |
+| 4 | Trần Trung Kiên | 2A202604014 | Thành viên nhóm | ttkien0710 |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -27,9 +27,9 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 |---|---|---|---|
 | CP3 — Hội tụ nhóm | | Nguyễn Lương Nguyên| Cluster, cây OST, bảng chấm điểm |
 | CP4 — Kiểm chứng | Nguyễn Lương Nguyên | | Assumption map, snapshot hoặc survey |
-| CP4 — Research | | | Bảng research có link |
-| CP5 — Quy trình trước/sau | | | Quy trình + bảng before/after |
-| CP5 — Problem Statement v0 | | | Problem Statement v0 |
+| CP4 — Research | Trần Trung Kiên | | Bảng research có link |
+| CP5 — Quy trình trước/sau | Trần Trung Kiên | | Quy trình + bảng before/after |
+| CP5 — Problem Statement v0 | | Trần Trung Kiên | Problem Statement v0 |
 | CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
 | CP6 — Quyết định | | | 4 rủi ro + Go/Not Yet/No-Go |
 
