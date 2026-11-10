@@ -276,7 +276,6 @@ Các công thức chỉ là mô hình dựa trên số phút minh họa; p, q v�
 ### 4.4. Cách thay số minh họa bằng baseline
 
 
-
 | Metric | Baseline hiện tại | Target đề xuất trước pilot | Cách đo |
 |---|---|---|---|
 | Câu hỏi lặp cần người hướng dẫn giải thích/người mới/tuần | Chưa đo | Giảm ít nhất 30% | Nhóm câu hỏi theo ý nghĩa; chuẩn hóa theo số người mới |
