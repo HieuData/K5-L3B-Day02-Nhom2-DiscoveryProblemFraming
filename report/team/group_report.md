@@ -98,7 +98,7 @@ Tổng hợp:
 | Phỏng vấn | 2 | 1/2 người nói trả lời intern làm mất nhiều thời gian của họ | 1/2 người nói tài liệu, quy trình onboarding của họ đã chuẩn |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
-Sửa từ "Chuẩn hóa quy trình onboarding nhân viên" sang thành "Xây dựng kho tài liệu onboarding tập trung.", có thể mở rộng thêm sang "Xây dựng hệ thống AI RAG hỗ trợ onboarding" sau khi hoàn thành xây dựng kho tài liệu.
+Sửa từ "Chuẩn hóa quy trình onboarding nhân viên" sang thành "Xây dựng kho tài liệu onboarding tập trung.", có thể mở rộng thêm sang "Xây dựng hệ thống hỗ trợ onboarding" sau khi hoàn thành xây dựng kho tài liệu.
 
 ### 3.3. Research giải pháp đã có
 
