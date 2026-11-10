@@ -234,12 +234,13 @@ Nhìn chung là không
 Nếu làm lại, tôi sẽ dùng nhiều thời gian hơn để tìm ra các pain-point ngách hơn, các pain-point đủ rộng, đủ đau, nhưng lại chưa được các nhóm nhận thấy, chưa có ai để ý đến. Tôi cũng sẽ phản biện nhóm mạnh hơn ở điểm này, khi hầu hết các ý tưởng được đưa ra đều đã có solution tốt hơn solution nhóm đưa ra, cũng như các bạn đang bị mắc lỗi solution-first.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
 Vấn đề là người mới khó tìm tài liệu, khiến người hướng dẫn phải trả lời lặp lại.
 Quy trình đề xuất: hỏi → tìm nguồn → nhận hướng dẫn → thực hiện → kiểm tra.
 Đo số câu hỏi lặp, thời gian hỗ trợ và tỷ lệ làm đúng.
 AI chỉ dùng nguồn đã duyệt, đúng quyền; thiếu căn cứ thì chuyển người.
 Chọn Workflow hỗ trợ tìm và tóm tắt, sau khi chuẩn hóa tài liệu.
-Đề xuất Not Yet: đo baseline và thử cách không dùng AI trước.
+Đề xuất Go.
 ---
 
 ## 7. Tài liệu tham khảo
