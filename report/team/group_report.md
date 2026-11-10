@@ -403,31 +403,47 @@ Vì sao:
 
 | Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
 |---|---|---|---|
-| **Value** | Người dùng có thật sự cần và sẽ dùng không? | | |
-| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | | |
-| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | | |
-| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | | |
+| **Value** | Người dùng có thật sự cần và sẽ dùng không? |TB |3/3 người được phỏng vấn cho biết sẽ chủ động tìm kiếm nếu có tài liệu đầy đủ; 1/2 người được hỏi xác nhận việc trả lời intern gây mất thời gian. Tuy nhiên, vẫn có người không gặp khó khăn khi onboarding hoặc đã có tài liệu chuẩn. Cần kiểm chứng thêm bằng câu hỏi thực tế trong pilot |
+| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? |TB |Workflow cung cấp câu trả lời ngắn kèm link nguồn, đồng thời chuyển câu hỏi không đủ căn cứ cho người phụ trách. Tuy nhiên, nhóm chưa thử nghiệm với nhân viên mới thực tế để đánh giá khả năng hiểu, kiểm tra và áp dụng câu trả lời |
+| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? |TB |Nhóm đã nghiên cứu các công cụ có sẵn như Notion Enterprise Search, Confluence Rovo và Guru, cho thấy hướng giải pháp khả thi về mặt công nghệ. Tuy nhiên, chất lượng kho tài liệu, quyền truy cập và mức độ phù hợp của các công cụ với team mục tiêu vẫn cần được kiểm chứng |
+| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? |TB |Giải pháp có thể giới hạn trong một team và sử dụng tài liệu nội bộ đã được duyệt. Tuy nhiên, nhóm vẫn cần xác nhận chính sách sử dụng dữ liệu với công cụ AI, chi phí và người chịu trách nhiệm cập nhật, kiểm duyệt tài liệu lâu dài |
 
 ### 8.2. Kết luận
 
-**Quyết định:** Go / Not Yet / No-Go
+**Quyết định: Go** 
 
-**Lý do:**
+**Lý do: giải pháp có khả năng giải quyết bottleneck trong việc tìm kiếm tài liệu và trả lời câu hỏi lặp lại của nhân viên mới. Kết quả phỏng vấn ban đầu cho thấy có nhu cầu thực tế, đồng thời research đã xác nhận sự tồn tại của các công cụ hỗ trợ phù hợp. Các rủi ro đều có thể trực tiếp kiểm nghiệm trong pilot**
 
 **Nếu Go — pilot nhỏ nhất:**
-
-**Nếu Not Yet — cần kiểm chứng gì trước:**
-
-**Nếu No-Go — nên làm gì thay AI:**
+- Phạm vi: Một team có nhân viên mới đang trong quá trình onboarding; chỉ sử dụng nhóm tài liệu nội bộ đã được phê duyệt.
+- Chuẩn bị: Gom tài liệu về một kho tập trung, xác định người phụ trách, trạng thái duyệt và ngày cập nhật của từng tài liệu.
+- Thử nghiệm: Sử dụng cùng một bộ 20 câu hỏi onboarding thực tế để so sánh ba phương án: (1) FAQ, mục lục và tìm kiếm thông thường; (2) công cụ tìm kiếm nội bộ có sẵn; (3) Workflow AI tìm kiếm và tóm tắt kèm link nguồn.
+- Vận hành: Sau khi kiểm tra chất lượng câu trả lời và được phép sử dụng dữ liệu, triển khai pilot giới hạn trong 4 tuần. AI chỉ tìm kiếm, tóm tắt; nhân viên mới kiểm tra nguồn và người phụ trách xử lý các câu hỏi không đủ căn cứ.
+- Đánh giá: Theo dõi số câu hỏi lặp lại, tỷ lệ câu trả lời đúng nguồn, thời gian hỗ trợ của người cũ và các sự cố phát sinh.
 
 **Ngưỡng dừng** (nếu sau … mà … thì quay về …):
+- Nếu trên 70% câu trả lời phải được người hướng dẫn sửa lại đáng kể sau giai đoạn thử nghiệm, dừng Workflow AI và quay về FAQ + mục lục + công cụ tìm kiếm hiện tại.
 
+- Nếu tỷ lệ câu trả lời đúng nguồn dưới 90%, tạm dừng để cải thiện chất lượng tài liệu và cơ chế truy xuất.
+
+- Nếu xảy ra sự cố nhân viên mới thực hiện sai tác vụ do câu trả lời AI không chính xác, dừng pilot ngay để rà soát.
+
+- Nếu tổ chức không cho phép sử dụng dữ liệu nội bộ với công cụ được chọn, không đưa dữ liệu vào hệ thống và chuyển sang phương án No AI.
 ---
 
 ## 9. Hạn chế và hướng tiếp theo
 
--
-
+- Hạn chế:
+    - Mẫu kiểm chứng còn nhỏ: Nhóm mới phỏng vấn 5 người, chưa đủ đại diện để kết luận nhu cầu onboarding ở nhiều team. Kết quả cũng có tín hiệu trái chiều: một số người gặp khó         khăn khi tìm tài liệu, trong khi một số người đã có quy trình onboarding tương đối tốt.
+    - Baseline chưa được đo bằng dữ liệu thực tế: Các số liệu như 5 câu hỏi/tuần, 60 phút hỗ trợ/tuần và 20 phút chờ hiện chủ yếu là ước tính. Nhóm chưa thu thập log đủ dài để xác       nhận mức độ ảnh hưởng thực tế.
+    - Chất lượng tài liệu chưa được đánh giá: Chưa xác định được tỷ lệ câu hỏi có câu trả lời trong tài liệu, tỷ lệ tài liệu lỗi thời hoặc thiếu nội dung. Đây là yếu tố quan trọng       vì AI không thể giải quyết triệt để vấn đề nếu tri thức chưa được ghi lại hoặc chưa được phê duyệt.
+- Hướng tiếp theo:
+    - Đo baseline thực tế: Theo dõi câu hỏi onboarding trong ít nhất 2 tuần, ghi nhận số câu hỏi lặp lại, thời gian người cũ hỗ trợ và thời gian nhân viên mới tìm kiếm. Phân loại        câu hỏi thành: đã có trong tài liệu, tài liệu chưa đầy đủ và cần người có thẩm quyền xử lý.
+    - Chuẩn hóa kho tài liệu: Tập trung các tài liệu onboarding vào một nơi, phân loại theo chủ đề, bổ sung người phụ trách, ngày cập nhật và trạng thái phê duyệt. Loại bỏ hoặc          đánh dấu các tài liệu cũ, thiếu thông tin và không còn hiệu lực.
+    - Thử nghiệm và so sánh giải pháp: Chuẩn bị bộ 20 câu hỏi onboarding thực tế cùng đáp án và nguồn tham chiếu chuẩn. So sánh FAQ/mục lục, công cụ tìm kiếm hiện có và Workflow         AI trên cùng bộ câu hỏi, sử dụng các tiêu chí đánh giá đã đề ra trong CP6.
+    - Triển khai pilot có kiểm soát: Nếu các điều kiện về dữ liệu và bảo mật được đáp ứng, chạy pilot trong một team trong 4 tuần. Theo dõi các success metric, ghi nhận câu trả          lời sai, câu hỏi phải chuyển cho người phụ trách và phản hồi của nhân viên mới.\
+    - Đánh giá và quyết định mở rộng: Đối chiếu kết quả với baseline và ngưỡng thành công. Nếu đạt yêu cầu, xem xét mở rộng sang các nhóm onboarding khác. Nếu chưa đạt, xác định         bottleneck còn lại để cải thiện tài liệu, cơ chế tìm kiếm hoặc workflow; nếu không mang lại hiệu quả rõ rệt, quay về FAQ và công cụ tìm kiếm thông thường.
+      
 ## 10. Tài liệu tham khảo
 
 
