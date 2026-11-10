@@ -35,38 +35,43 @@
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A | | |
-| B | | |
-| C | | |
+|A — Tìm kiếm và tái sử dụng tri thức Tìm kiếm và tái sử dụng tri thức|#2. Cập nhật tài liệu đặc tả sau code; #6. Lookup kiến thức đã học; #7. Nhân viên mới tự tìm tài liệu và quy trình nội bộ |Thông tin đã tồn tại nhưng người cần sử dụng khó tìm thấy, khó xác định tính phù hợp hoặc chưa biết cách tiếp cận |
+|B — Điều phối và phân chia công việc|#1. Tổng hợp tiến độ team; #4. Xác định task và deadline sau cuộc họp; #5. Chia nhỏ đề bài thành task có người phụ trách |Thông tin về công việc và trách nhiệm chưa được chuyển hóa thành trạng thái hoặc đầu việc rõ ràng, gây khó khăn cho việc phối hợp |
+|C — Tổng hợp thông tin phục vụ quyết định|#3. Tổng hợp phản hồi người dùng từ nhiều ứng dụng; #8. Theo dõi thông báo trường học qua nhiều kênh |Thông tin quan trọng nằm rải rác ở nhiều nguồn, khiến người dùng mất thời gian lọc, tổng hợp và xác định việc cần thực hiện |
+|D — Vận hành dịch vụ và phân bổ nguồn lực|#9. Trả lời câu hỏi lặp lại của khách hàng; #10. Xử lý yêu cầu thanh toán thuốc; #11. Tránh trùng lặp môi giới bất động sản; #12. Tối ưu tuyến đường giao hàng |Quy trình cung cấp dịch vụ còn phát sinh thao tác lặp lại, chậm trễ hoặc phân bổ nguồn lực chưa hiệu quả |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME: 
-├── Opportunity A: 
-├── Opportunity B: 
-└── Opportunity C: 
+OUTCOME: Giảm thời gian người cũ / mentor dành cho việc trả lời các câu hỏi
+lặp lại của nhân viên mới trong quá trình onboarding
+├── Opportunity A: Tài liệu và quy trình nội bộ nằm ở nhiều nơi khác nhau
+├── Opportunity B: Nhân viên mới không biết từ khóa hoặc thuật ngữ
+│   nội bộ để tìm kiếm thông tin
+└── Opportunity C: Nhân viên mới không chắc thông tin tìm được
+    có chính xác, đầy đủ và còn hiệu lực hay không
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
--
+- Xây dựng một kho tài liệu onboarding tập trung.
+- Xây dựng chatbot RAG để tìm kiếm và trả lời tài liệu nội bộ
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
+|#7. Nhân viên mới tự tìm tài liệu và quy trình nội bộ |5 |4 |3 |4 |4 |5 |4 |29 |
+|#6. Lookup kiến thức đã học |4 |4 |2 |3 |5 |5 |4 |27 |
+|#9. Trả lời câu hỏi lặp lại của khách hàng |4 |4 |3 |4 |4 |5 |2 |26 |
 
-**Candidate được chọn:**
+**Candidate được chọn: Nhân viên mới tự tìm tài liệu và quy trình nội bộ**
 
-**Vì sao chọn:**
+**Vì sao chọn: Chọn #7 vì có actor, quy trình và impact rõ ràng, pain có thể đo lường qua thời gian tìm kiếm và trả lời câu hỏi lặp lại. Phạm vi phù hợp với năng lực nhóm, đồng thời cho phép so sánh hiệu quả giữa các giải pháp.**
 
-**Vì sao loại các candidate còn lại:**
+**Vì sao loại các candidate còn lại: Lookup kiến thức gặp phải vấn đề khó chuẩn hóa hệ thống tài liệu cá nhân, trong khi việc trả lời câu hỏi lặp lại thì nhóm chưa có cơ hội tiếp xúc với domain cskh shop online, dẫn đến việc khó kiểm chứng**
 
 **Xử lý bất đồng (nếu có):**
 
