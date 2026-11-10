@@ -204,8 +204,8 @@ Ghi lý do mỗi lần quay lại: thứ tự giao, khách vắng/đổi giờ,
 |---|---|---|---|---|
 | CP1 Scan | Nhờ AI gợi ý 30 vấn đề, sau đó tự scan 3 vấn đề, nhờ AI gợi ý thêm 5 vấn đề và chỉnh cách diễn đạt trong file. | Chỉnh sửa từ bản tự viết, Job Story, actor, chỉ số cần thu; chỉ ra ý y tế đang gộp hai pain và ý vận chuyển còn rộng. | Gợi ý chưa có bằng chứng từ trải nghiệm cá nhân; chỉ số đề xuất chưa phải số liệu thực tế. | Chưa bổ sung; cần tự đối chiếu trải nghiệm, chọn giữ/bỏ và ghi lý do. |
 | CP2 Problem Card | Chọn 3 problem đầu, nhờ AI biên tập lại card và bổ sung sơ đồ quy trình hiện tại với thời gian minh họa. | Làm rõ actor, phạm vi, bottleneck, cách đo và phản biện giả định. | Quy trình chưa kiểm chứng; baseline chưa đo, target chỉ là đề xuất. | Đã chọn 3 problem đầu; cần tự xác nhận card và sơ đồ, thay thời gian minh họa bằng số liệu thực tế. |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
+| CP4 Research | Dùng AI tìm các nguồn ban đầu về công cụ và giải pháp đã có, sau đó tự kiểm tra lại. | Gợi ý công cụ liên quan và nguồn tham khảo để bắt đầu research. | Nguồn và mô tả do AI gợi ý vẫn cần kiểm tra; chưa đủ để kết luận công cụ phù hợp với bài nhóm. | Tự kiểm tra nguồn và đối chiếu nội dung trước khi đưa vào báo cáo. |
+| CP5 Quy trình | Dùng AI tìm hiểu quy trình hiện tại và chỉnh sửa quy trình đề xuất do tôi tự viết. | Hỗ trợ mô tả các bước và làm rõ cách trình bày quy trình đề xuất. | Quy trình hiện tại do AI đưa ra chưa phải bằng chứng quan sát tại team; thời gian minh họa cần được đo lại. | Tự viết quy trình đề xuất ban đầu, sau đó rà soát các chỉnh sửa của AI theo phạm vi bài nhóm; giữ rõ số liệu minh họa, chưa coi là kết quả thực tế. |
 | CP5–6 Problem Statement | | | | |
 | CP6 Mức can thiệp / quyết định | | | | |
 
