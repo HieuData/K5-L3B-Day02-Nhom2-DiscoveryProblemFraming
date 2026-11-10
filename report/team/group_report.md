@@ -107,25 +107,6 @@ Sửa từ "Chuẩn hóa quy trình onboarding nhân viên" sang thành "Xây d�
 
 ### 3.3. Research giải pháp đã có
 
-**Phạm vi và trạng thái bằng chứng của phần TV3**
-
-**Job story:** Khi nhân viên mới vào, team muốn họ tự tìm được tài liệu và quy trình nội bộ để người cũ không phải trả lời cùng câu hỏi nhiều lần.
-
-**Phạm vi thử đề xuất:** một team, một vai trò, nhân viên trong bốn tuần đầu; các câu hỏi về quy trình đã được tài liệu hóa. Người dùng chính là người mới; người hướng dẫn hỗ trợ; owner có trách nhiệm xác nhận tài liệu; admin quản lý quyền truy cập. Một người có thể kiêm nhiều vai trò.
-
-**Ba loại thông tin trong báo cáo:**
-
-- **Đã kiểm tra:** tính năng sản phẩm được mô tả trong các trang chính thức đã mở. Không đồng nghĩa đã chạy thử sản phẩm.
-- **Phân tích của TV3:** nhận định về mức phù hợp, quy trình và cách chọn mức can thiệp.
-- **Ước lượng minh họa:** toàn bộ số phút, khối lượng và ngưỡng thử đề xuất. Chưa có quan sát tại team; không được báo cáo như baseline hay kết quả tiết kiệm thực tế.
-
-Chưa biết nguyên nhân chủ yếu là khó tìm tài liệu, tài liệu thiếu/sai, thiếu quyền, hay thiếu kỹ năng thực hiện. Thiết kế dưới đây kiểm tra giả thuyết đầu tiên. Nếu giả thuyết sai, phải sửa problem, không ép triển khai chatbot.
-
-**Phương pháp**
-
-Theo phần research của TV3, đã mở trực tiếp bốn trang hướng dẫn chính thức của ba sản phẩm, đọc phần chức năng liên quan; đối chiếu với các bước tìm tài liệu, đọc hiểu, kiểm tra nguồn, hỗ trợ ngoại lệ và thực hiện tác vụ. Ngày kiểm tra 09/11/2026.
-
-Không dùng mô tả tiếp thị làm bằng chứng về năng suất đạt được. Không so giá vì chưa biết gói hiện tại, số người dùng và nhu cầu kết nối của team. Không kết luận một tính năng không tồn tại chỉ vì trang đã đọc không đề cập.
 
 **Bảng research**
 
@@ -294,9 +275,7 @@ Các công thức chỉ là mô hình dựa trên số phút minh họa; p, q v�
 
 ### 4.4. Cách thay số minh họa bằng baseline
 
-TV3 phối hợp người phỏng vấn thu log: mã lượt, vai trò, tác vụ, câu hỏi, nguồn đã thử, thời điểm bắt đầu/kết thúc từng bước, phút người mới, phút người hướng dẫn, thời gian chờ, nhánh xử lý, số vòng làm lại, kết quả checklist. Ẩn thông tin nhạy cảm.
 
-Thu baseline trong 2 tuần nếu đủ lượt; thử ít nhất 20 câu hỏi/tác vụ đại diện để khám phá lỗi, không coi cỡ mẫu này là bằng chứng thống kê mạnh. Báo median và khoảng biến thiên, không chỉ bình quân. So người cùng vai trò và tuần onboarding tương đương. Đo cả chat riêng tự khai báo để tránh chỉ đếm câu hỏi công khai.
 
 | Metric | Baseline hiện tại | Target đề xuất trước pilot | Cách đo |
 |---|---|---|---|
@@ -452,7 +431,6 @@ Vì sao:
 
 ## 10. Tài liệu tham khảo
 
-Nguồn research do TV3 ghi nhận đã kiểm tra ngày 09/11/2026; chưa chạy thử sản phẩm:
 
 - [S1 — Notion Enterprise Search](https://www.notion.com/help/enterprise-search).
 - [S2 — Confluence / Rovo Search](https://support.atlassian.com/confluence-cloud/docs/use-atlassian-intelligence-to-search-for-answers/).
