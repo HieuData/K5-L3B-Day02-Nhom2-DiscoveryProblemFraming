@@ -244,5 +244,7 @@ Chọn Workflow hỗ trợ tìm và tóm tắt, sau khi chuẩn hóa tài liệu
 ---
 
 ## 7. Tài liệu tham khảo
-
--
+- https://help.getguru.com/docs/what-is-verifcation
+- https://support.atlassian.com/confluence-cloud/docs/use-atlassian-intelligence-to-search-for-answers/
+- https://help.getguru.com/docs/searching-for-knowledge-in-guru
+- https://www.notion.com/help/enterprise-search
