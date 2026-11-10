@@ -4,9 +4,9 @@
 
 - Họ tên: Bùi Đức Hiếu
 - MSSV: 2A202604003 
-- Email trường (không bắt buộc, repo có thể để public): 26ai.hieubd2@vinuni.edu.vn
+- Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm: Nhóm 2
-- Link repo nhóm: https://github.com/HieuData/K5-L3B-Day02-Nhom2-DiscoveryProblemFraming/tree/main
+- Link repo nhóm: https://github.com/HieuData/K5-L3B-Day02-Nhom2-DiscoveryProblemFraming
 
 ---
 
@@ -206,8 +206,7 @@ Boundary:
 
 Mức can thiệp AI: Workflow AI trên nền tảng No AI. Trước tiên cần chuẩn hóa kho tài liệu, phân công người quản lý và cập nhật trạng thái tài liệu (No AI). Sau đó sử dụng AI Search để tìm kiếm, tổng hợp thông tin và cung cấp nguồn trong quy trình onboarding (Workflow). Không sử dụng Agent vì phạm vi pilot chỉ cần hỗ trợ tìm kiếm và trả lời có kiểm soát, chưa cần AI tự chủ động thực hiện hành động.
 
-Decision: Go – triển khai pilot trong phạm vi một team, sử dụng 20 câu hỏi onboarding thực tế để so sánh FAQ/index, công cụ tìm kiếm hiện tại và Workflow AI. Đánh giá kết quả trước khi quyết định mở rộng.
----
+Decision: Go -> Triển khai pilot trong phạm vi 1 team, sử dụng 20 câu hỏi onboarding thực tế để so sánh FAQ/index, công cụ tìm kiếm hiện tại và Workflow. Đánh giá kết quả trước khi quyết định mở rộng.
 
 ## 7. Tài liệu tham khảo
 
