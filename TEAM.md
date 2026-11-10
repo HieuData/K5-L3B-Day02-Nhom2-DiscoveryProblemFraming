@@ -13,7 +13,7 @@
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
 | 1 | | | | |
-| 2 | Nguyễn Lương Nguyên | 2A202604005 | ghi chép, phụ trách kiểm chứng (phỏng vấn) | nglngnguyen@gmail.com |
+| 2 | Nguyễn Lương Nguyên | 2A202604005 | ghi chép, phụ trách kiểm chứng (phỏng vấn) | nglngnguyen-gh |
 | 3 | | | | |
 | 4 | | | | |
 
