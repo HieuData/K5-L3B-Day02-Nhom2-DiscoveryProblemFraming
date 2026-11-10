@@ -15,7 +15,7 @@
 | 1 | | | | |
 | 2 | Nguyễn Lương Nguyên | 2A202604005 | ghi chép, phụ trách kiểm chứng (phỏng vấn) | nglngnguyen-gh |
 | 3 | | | | |
-| 4 | Trần Trung Kiên | 2A202604014 | Thành viên nhóm | ttkien0710 |
+| 4 | Trần Trung Kiên | 2A202604014 | research, vẽ quy trình, bảng before/after, ma trận | ttkien0710 |
 | 5 | Hoàng Nhật Minh | 2A202603992 | Thuyết trình, phản biện chính, viết Problem statement v0 + Problem statement v1, Ma trận, AI canvas, eval...| NMinh-123|
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
